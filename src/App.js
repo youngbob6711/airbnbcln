@@ -4,7 +4,7 @@ import Home from './home';
 import Header from './header';
 //import Banner from './banner';
 //import Cards from './cards';
-//import Footer from './footer';
+import Footer from './footer';
 //import Searching from './searching';
 
 
@@ -18,10 +18,11 @@ function App() {
 
   <Home/>
 
-  <h1>This is the
-  </h1>
 
-    
+
+  <Footer />
+
+
     </div>
   );
 }

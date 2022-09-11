@@ -1,18 +1,25 @@
 import React from 'react'
 import './home.css'
 import Banner from './banner'
+//import { Card } from '@mui/material'
+import Card from './cards'
 
 function home() {
   return (
-    <div className='home'>
-
-    <h1>
-
-      This is the body component
-    </h1>
+    <div className='main_grid'>
+     
     <Banner />
 
-    </div>
+    <div className='grid'>
+
+      <Card src='./airr.png' title='Online Experiences' desc='Unique Activities we can do better' />
+      <Card src='./airr.png' title='Online Experiences' desc='Unique Activities we can do better' />
+      <Card src='./airr.png' title='Online Experiences' desc='Unique Activities we can do better' />
+      <Card src='./airr.png' title='Online Experiences' desc='Unique Activities we can do better' />
+     
+     
+        </div>
+        </div>
   )
 }
 

@@ -1,0 +1,53 @@
+.pagegrid {
+    background: url(img10.jpg);
+    margin-left: 88px;
+    height: 49vh;
+    position: relative;
+     }
+
+.gridtexts {
+    padding-top: 15vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    width: 280px;
+}
+.search_section {
+display: flex;
+flex-direction: column;
+}
+
+.search_section > button {
+    background-color: white;
+    text-transform: inherit;
+    color: #ff7779;
+    border: 0;
+}
+.search_section > button:hover {
+    background-color: black;
+    color: #ff7779;
+    border-color: black;
+}
+
+.gridtexts > Button {
+    color: white;
+    margin-top: 10px;
+background-color: #ff7779;
+text-transform: inherit;
+border: none;
+border-color: lightgray;
+
+}
+
+.gridtexts > button:hover {
+    color: #ff7779;
+    background-color: black;
+    border: 1;
+    border-color: #ff7779;
+
+}
+.gridtexts > h4 {
+    margin-top: 13px;
+}
